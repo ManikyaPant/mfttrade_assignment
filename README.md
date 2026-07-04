@@ -78,7 +78,6 @@ python verify_output.py --data-dir allData --results ./results   # re-derive inv
 (MTM identity, end-of-day flat, traded underlyings, realized-PnL reconciliation,
 nearest-strike, nearest-expiry) and reports PASS/FAIL for each.
 
-## Notes
 
 - Multi-leg execution is atomic (`config.atomic_execution`, default on): if a leg
   can't be priced at a given second, the whole batch is retried next tick so a
